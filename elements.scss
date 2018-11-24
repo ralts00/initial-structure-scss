@@ -1,0 +1,55 @@
+//Buttons
+
+button, .button {
+  //
+}
+
+// Text
+h1, h2, h3, h4, h5, h6, p {
+  @extend .rest-m-p;
+}
+
+h1 {
+  //
+}
+
+h2 {
+  //
+}
+
+h3 {
+  //
+}
+
+h4 {
+  //
+}
+
+h5 {
+  //
+}
+
+h6 {
+  //
+}
+
+strong {
+  font-weight: $bold;
+}
+
+
+// Others
+
+input {
+  &:active, &:focus {
+    outline: none;
+  }
+}
+
+nav {
+  //
+}
+
+footer {
+  //
+}

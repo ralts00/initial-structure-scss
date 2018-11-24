@@ -1,0 +1,15 @@
+.animate {
+  transition: all .2s;
+}
+
+.no-animate {
+  &:hover, &:active, &:focus {
+    transition: none;
+  }
+}
+
+//Sizes
+
+.vh-100 {
+  height: 100vh !important;
+}
