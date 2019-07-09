@@ -1,14 +1,16 @@
+
 //Normal
 @import 'vars';
 @import 'rest';
 @import 'methods';
 @import 'layout';
+@import 'spaces';
 @import 'elements';
 @import 'global';
-@import 'modal';
-
+@import 'custom';
 //Views
-@import 'views';
+@import 'modules';
+@import 'ambient';
 
 //Helpers
 @import 'helpers';

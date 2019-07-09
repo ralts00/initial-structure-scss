@@ -1,12 +1,8 @@
-//Buttons
-
-button, .button {
-  //
-}
-
 // Text
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, small, p {
   @extend .rest-m-p;
+  font-weight: $regular;
+  line-height: normal;
 }
 
 h1 {
@@ -33,8 +29,19 @@ h6 {
   //
 }
 
+small {
+  //
+}
+
 strong {
   font-weight: $bold;
+}
+
+
+//Buttons
+
+button, .button {
+  //
 }
 
 
@@ -46,8 +53,20 @@ input {
   }
 }
 
+hr {
+  //
+}
+
+a {
+  //
+}
+
 nav {
   //
+}
+
+section {
+  // Set margin top bottom use spaces
 }
 
 footer {

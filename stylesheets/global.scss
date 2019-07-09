@@ -1,1 +1,83 @@
-// Buttons, icon, dropdows, etc.
+.display {
+    &--flex {
+        display: flex;
+    }
+
+    &--inline-block {
+        display: inline-block;
+    }
+
+    &--block {
+        display: block;
+    }
+}
+
+.bordered {
+    border-radius: // Set bordered rem, example .5rem
+}
+
+.background {
+    //&-blue set bg colors
+    &--white {
+        background-color: $white;
+    }
+
+    &--black {
+        background-color: $black;
+    }.
+}
+
+.text {
+    &--regular {
+        font-weight: $regular;
+    }
+
+    &--medium {
+        font-weight: $medium;
+    }
+
+    &--bold {
+        font-weight: $bold;
+    }
+
+    &--uppercase {
+        text-transform: uppercase;
+    }
+
+    &--white {
+        color: $white;
+    }
+
+    &--black {
+        color: $black;
+    }
+
+    &--center {
+        text-align: center;
+    }
+
+    &--right {
+        text-align: right;
+    }
+
+    &--left {
+        text-align: left;
+    }
+
+    &--decorationless {
+        border-bottom: 0;
+
+        &:hover {
+            border-bottom: 0;
+        }
+    }
+
+}
+
+.shadow {
+    &--less {
+        box-shadow: none !important;
+    }
+
+    //Set shadows: box-shadow: 0 0 0 0 #;
+}

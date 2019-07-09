@@ -1,5 +1,15 @@
+//Extends or Methods
+
 .animate {
   transition: all .2s;
+}
+
+.floating {
+  @extend .animate;
+  
+  &:hover {
+    transform: translateY(-5px);
+  }
 }
 
 .no-animate {
